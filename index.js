@@ -24,7 +24,7 @@ client.once(Events.ClientReady, (readyClient) => {
 });
 
 client.on("messageCreate", (message) => messageCreate(message));
-console.log(interactionCreate);
+
 client.on("interactionCreate", (interaction) => interactionCreate(interaction));
 
 // Log in to Discord with your client's token
